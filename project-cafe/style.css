@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+body {
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    font-family: sans-serif;  
+    padding: 20px; 
+}
+
+/* CONTEÚDO */
+
+h1, h2, p {
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: Impact, serif;
+}
+
+.subtittle {
+    font-style: italic;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+
+hr {
+    border-color: brown;
+    height: 3px;
+    background-color: brown;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu {
+    background-color: #deb887;  
+    width: 80%;   /* LARGURA */
+    margin-left: auto; 
+    margin-right: auto; /* MARGEM */
+    padding: 20px;    /* PREENCHIMENTO/PREENCHER */
+    max-width: 500px;
+}
+
+.item p {
+    display: inline-block;
+}
+
+.sabor, .sobremesa {
+    text-align: left;  
+    width: 75%;
+}
+
+.preco {
+    text-align: right;
+    width: 25%;
+}
+
+.linhabaixa {
+    margin-top: 25px;
+}
+
+/* FOOTER */
+
+.rodape {
+    margin-bottom: 5px;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: brown;
+}
+
+a:active {
+    color: brown;
+}
+
+footer a {
+    font-size: 13px;
+}
+
+footer p {
+    font-size: 15px;
+}
