@@ -1,2 +1,2 @@
 # Projetos
- Projetos para pratilcar.
+ Projetos para praticar.
