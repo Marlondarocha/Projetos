@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+h1 {
+    text-align: center;
+}
+
+.marcar {
+    width: 200px;
+    height: 25px;
+    background-color: blue;
+    margin: auto;
+}
