@@ -4,9 +4,25 @@ h1 {
     text-align: center;
 }
 
-.marcar {
+div {
     width: 200px;
     height: 25px;
-    background-color: blue;
-    margin: auto;
+    margin: 10px auto;
+}
+
+.container {
+    background-color: rgb(255, 255, 255); 
+    padding: 10px 0;  
+}
+
+.um {
+    background-color: rgb(255, 0, 0);
+}
+
+.dois {
+    background-color: rgb(0, 0, 0);
+}
+
+.tres {
+    background-color: rgb(0, 0, 0);
 }
