@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+body { 
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.frame {
+    border: 50px solid black;
+    padding: 50px;
+    width: 500px;
+    padding: 20px;
+    margin: 20px auto;  
+}
+
+.janel {
+    background-color: brown; 
+    width: 500px;
+    height: 600px;
+    padding: 1px;
+    overflow: hidden; 
+    filter: blur(2px);
+}
+
+.um {
+    background-color: chocolate;
+    margin: 20px auto;
+    width: 425px;
+    height: 150px;
+    box-shadow: 0 0 3px 3px chocolate;
+    border-radius: 9px;
+}
+
+.dois {
+    background-color: #8F0401;  /* BURGUNDY (VINHO)*/
+    margin: 0 auto 20px;
+    width: 475px;
+    height: 200px;
+    box-shadow: 0 0 3px 3px #8F0401;
+    border-radius: 8px 10px;
+}
+
+.um, .dois {
+    filter: blur(1px);   /* ADICIONAR BLUR */
+}
+
+.tres {
+    background-color: #B20403;  /* RED (VERMELHO) */
+    margin: auto;
+    width: 91%;  /* 91% DA LARGURA TOTAL DA DIV */
+    height: 28%; /* 28% DA ALTURA TOTAL DA DIV */
+    box-shadow: 0 0 5px 5px #B20403;
+    border-radius: 30px 25px 60px 12px;
+    filter: blur(2px);
+}
