@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+/* CORES:  #2F2325 #86584D */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68deg, #2F2325 16%, #86584D 85%);
+}
+
+#cabecalho {
+    display: flex; /* TRABALHAR USANDO FLEX BOX */
+    flex-direction: row; /* DIREÇÃO DOS ITENS */
+    align-items: center; /* POSIÇÃO EM RELAÇÃO AO NAVEGADOR */
+    justify-content: space-around; /* ESPAÇAMENTO ENTRE OS ITENS */
+    padding: 24px;
+}
+
+#cabecalho-img {
+    height: 72px;
+}
+
+#menu {
+    display: flex;
+    gap: 32px; /* ESPAÇAMENTO ENTRE OS ITENS(INDIVIDUALMENTE) */
+}
+
+.menu-item {
+    font-family: 'Sarala', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.menu-item:hover {
+    color: peru;
+}
+
+#conteudo {
+    border-top: 0.5px solid #FFF2E7;
+    margin-bottom: 50px;
+}
+
+#secao1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#cont-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+#titulo {
+    font-family: 'Righteous', cursive;
+    color: white;
+    font-weight: 400;
+    font-size: 65px;
+}
+
+#subtitulo {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: white;
+}
+
+#botao {
+    background-color: #ECD6C4;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: black;
+    border-radius: 18px;
+    border: none;
+    box-shadow: 5px 7px 5px rgba(0, 0, 0, 0.253);
+    width: 180px;
+    height: 60px;
+}
+
+#botao:hover {
+    background-color: white;
+    color: #412f32;
+    cursor: pointer;
+}
+
+#img {
+    height: 430px;
+}
+
+#secao2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    margin-top: 45px;
+}
+
+#titulo-secundario {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    border-top: 0.4px solid white;
+    padding-top: 45px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.paragrafo {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 200;
+    font-size: 18px; 
+    color: white;
+}
+
+#rodape {
+    padding: 30px;
+    border-top: 0.4px solid white;
+}
+
+#palavra {
+    text-align: center;
+    font-size: 35px;
+}
+
+a#ancora:visited {
+    color: white;
+}
+
+a#ancora:hover {
+    color: peru;
+    text-decoration: underline;
+}
