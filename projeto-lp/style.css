@@ -1,7 +1,38 @@
 @charset "UTF-8";
 
+/* CORES: #F96705
+FONTES: "Oswald", sans-serif;*/
+
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+
 * {
-    margin: 0px;
-    padding: 0px;   
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;  
 }
 
+body {
+    font-size: 100%;
+}
+
+header {
+    color: #F96705;
+    font-family: "Oswald", sans-serif;
+}
+
+#cerebro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+#cabecalho {
+    height: 70px;
+}
+
+#loccontent {
+    display: flex;
+    gap: 30px;
+}
